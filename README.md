@@ -16,8 +16,6 @@ D. Authors Info
 
 ### Description:
 
-##### 1
-
     The website displays a number of cheap and affordable
     food recipes and allows user to search for specific recipes.
 
