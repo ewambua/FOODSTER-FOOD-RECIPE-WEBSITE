@@ -1,0 +1,50 @@
+.card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    max-width: 35vw
+  }
+
+
+
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+.content {
+  color: #d8870e;
+}
+
+.heading {
+  background-color: #11064d;
+  margin-bottom: 20px;
+  padding: 5px 0px 5px 15p;
+  text-align: center;
+}
+
+#subtitle {
+  color: rgb(105, 172, 29);
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  color: #d8870e;
+}
+
+#recipe-form{
+  text-align: center;
+}
+
+.allbtns{
+  background-color: #d8870e;
+  color: rgb(70, 2, 2);
+}
+
+.allbtns:hover{
+  background-color: #11064d;
+  color: rgb(105, 172, 29);;
+}
+

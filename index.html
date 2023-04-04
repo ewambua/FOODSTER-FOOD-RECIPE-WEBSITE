@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipies</title>
+    <link rel='stylesheet' href='./css/style.css'/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
+    >
+</head>
+<body>
+    <div class="heading">
+        <div class="item">
+        <h2 class="ui header">
+            <div class="content">FOODSTER</div>
+            <div class="sub header" id="subtitle">The Best Food Recipes</div>
+            <hr>
+        </h2>
+        </div>
+    </div>
+
+    <h2 class="title">Food Recipes</h2>
+
+    <form id='recipe-form'>
+        <input id='search' type='text' name='search' placeholder="Search for recipie">
+        <input class="allbtns" type='submit' name='submit' class="submit-btn" value="Search"/>
+    </form>
+    <br>
+
+    <div id="FoodCard" class="card">
+        <img src="" alt="Food Image">
+        <div class="container">
+            <h4 id="FoodName">Food Name</h4>
+            <div>
+                <button class="allbtns" id="foodRecipe">See Recipe</button>
+            </div>
+            <br>
+            <div>
+                <button class="allbtns" id="nutritionDetails">Nutrition Details</button>
+            </div>
+        </div>
+        </div>
+
+
+</div>
+
+    <script src='./src/index.js'></script>
+</body>
+</html>
