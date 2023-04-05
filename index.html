@@ -24,15 +24,22 @@
     <h2 class="title">Food Recipes</h2>
 
     <form id='recipe-form'>
+        <div>
+            <label for="search">Search for recipe by main ingredient</label>
+        </div>
         <input id='search' type='text' name='search' placeholder="Search for recipie">
         <input class="allbtns" type='submit' name='submit' class="submit-btn" value="Search"/>
     </form>
     <br>
 
-    <div id="FoodCard" class="card">
-        <img src="" alt="Food Image">
-        <div class="container">
-            <h4 id="FoodName">Food Name</h4>
+    <div id="results">
+
+    </div>
+
+    <!-- <div id="FoodCard" class="card">
+        <img id="FoodImage" src="" alt="Food Image">
+
+            <h4 id="FoodName">foodname</h4>
             <div>
                 <button class="allbtns" id="foodRecipe">See Recipe</button>
             </div>
@@ -40,11 +47,8 @@
             <div>
                 <button class="allbtns" id="nutritionDetails">Nutrition Details</button>
             </div>
-        </div>
-        </div>
-
-
-</div>
+            <br>
+    </div> -->
 
     <script src='./src/index.js'></script>
 </body>
