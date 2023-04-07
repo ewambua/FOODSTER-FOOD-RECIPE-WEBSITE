@@ -31,7 +31,7 @@ D. Authors Info
 
 ### Licence
 
-[MIT License]
+[MIT License](https://github.com/ewambua/FOODSTER-FOOD-RECIPE-WEBSITE/blob/main/LICENSE)
 
 
 ### Authors Info
