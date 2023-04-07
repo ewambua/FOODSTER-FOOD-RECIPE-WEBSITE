@@ -16,8 +16,9 @@ D. Authors Info
 
 ### Description:
 
-    The website displays a number of cheap and affordable
-    food recipes and allows user to search for specific recipes.
+    This website  allows the user to search for specific recipes.
+    The recipes include written instructions and links to video instructions of how to cook the recipes
+    
 
 
 ### Technologies Used
